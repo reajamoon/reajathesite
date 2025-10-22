@@ -1,16 +1,11 @@
 ---
-
+import Base from './layouts/base.astro';
+import { BlueskyPost } from '@astro-community/astro-embed-bluesky';
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+	<Base title="reajamoon | Welcome">
+		<h1>Hello World</h1>
+		<p>This is my site. Etc. etc. etc.</p>
+		<p> Oh this is kind of neat, <br>
+		<BlueskyPost id="https://bsky.app/profile/reaja.bsky.social/post/3m3pyocenss2w" /></p>
+	</Base>
