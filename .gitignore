@@ -2,6 +2,7 @@
 dist/
 # generated types
 .astro/
+.vscode/
 
 # dependencies
 node_modules/
@@ -12,7 +13,6 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-
 # environment variables
 .env
 .env.production
@@ -22,3 +22,13 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+
+# configs and things
+astro.config.mjs
+package-lock.json
+package.json
+site.webmanifest
+web-app-manifest-192x192.png
+web-app-manifest-512x512.png
+tsconfig.json
+ASTRO_README.md
